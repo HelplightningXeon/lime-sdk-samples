@@ -13,8 +13,8 @@
 #import <HLSDK/HLSDK.h>
 #import <HLSDKLogging/HLSDKLogging.h>
 //TODO
-NSString* const kDefaultUserName = @"[YOUR_USER_NAME]";
-NSString* const kHLApiKey = @"[YOUR_HL_API_KEY]";
+NSString* const kDefaultUserName = @"xiaowei.chang+1";
+NSString* const kHLApiKey = @"322f43a96e734c4c84283194c5ba8e7e";
 
 NSErrorDomain const kErrorDomain = @"SampleErrorDomain";
 NSInteger const kErrorCodeBase = NSIntegerMin;

@@ -8,9 +8,9 @@ PODS:
   - CocoaLumberjack/Core (3.7.4)
   - CocoaZ (1.4.2)
   - FXKeychain (1.5.1)
-  - HLSDK (17.6.1):
-    - HLSDK/Main (= 17.6.1)
-  - HLSDK/Main (17.6.1):
+  - HLSDK (17.8.0):
+    - HLSDK/Main (= 17.8.0)
+  - HLSDK/Main (17.8.0):
     - Alamofire (= 5.0.5)
     - AWSCore (= 2.23.5)
     - AWSS3 (= 2.23.5)
@@ -23,7 +23,7 @@ PODS:
     - OTXCFramework (= 2.27.4)
     - PromisesObjC (= 2.0.0)
     - PromisesSwift (= 2.0.0)
-    - Realm (= 10.41.1)
+    - Realm (= 20.0.1)
     - SDWebImage (= 3.7.1)
     - SkeletonView (= 1.13.0)
     - SVProgressHUD (= 2.2.2)
@@ -44,7 +44,7 @@ PODS:
     - vipaar-swift-markdown (= 1.0.0)
     - vipaar-tinyspline (= 1.0.0)
     - ZIPFoundation (= 0.9.16)
-  - HLSDK/ScreenSharing (17.6.1):
+  - HLSDK/ScreenSharing (17.8.0):
     - CocoaLumberjack (= 3.7.4)
   - InputBarAccessoryView (5.4.0):
     - InputBarAccessoryView/Core (= 5.4.0)
@@ -56,9 +56,9 @@ PODS:
   - PromisesObjC (2.0.0)
   - PromisesSwift (2.0.0):
     - PromisesObjC (= 2.0.0)
-  - Realm (10.41.1):
-    - Realm/Headers (= 10.41.1)
-  - Realm/Headers (10.41.1)
+  - Realm (20.0.1):
+    - Realm/Headers (= 20.0.1)
+  - Realm/Headers (20.0.1)
   - SDWebImage (3.7.1):
     - SDWebImage/Core (= 3.7.1)
   - SDWebImage/Core (3.7.1)
@@ -90,8 +90,8 @@ PODS:
   - ZIPFoundation (0.9.16)
 
 DEPENDENCIES:
-  - HLSDK (= 17.6.1)
-  - HLSDK/ScreenSharing (= 17.6.1)
+  - HLSDK (= 17.8.0)
+  - HLSDK/ScreenSharing (= 17.8.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -118,7 +118,7 @@ SPEC REPOS:
     - tarkit
     - UIActivityIndicator-for-SDWebImage
     - ZIPFoundation
-  https://github.com/VIPAAR/Specs.git:
+  https://github.com/xiaoweiChang/Specs.git:
     - HLSDK
     - vipaar-j2objc
     - vipaar-MessageKit
@@ -139,7 +139,7 @@ SPEC CHECKSUMS:
   CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
   CocoaZ: a296b1fbea2c648daf2ccabb5403ed354569e633
   FXKeychain: a6c2efc46ba7167163c45469a0554233e9e6569e
-  HLSDK: 19341f98faf88623e063094d2b97c0c8d2d2e3fd
+  HLSDK: 78a0609753b0bad3e2999b169c217c25d715c1b0
   InputBarAccessoryView: 74d471ab1fa1736806be50328df79257e52865a9
   JVFloatLabeledTextField: df48598472ee015701d509f43e59492a0d4ca208
   Kingfisher: f2af9028b16baf9dc6c07c570072bc41cbf009ef
@@ -147,7 +147,7 @@ SPEC CHECKSUMS:
   OTXCFramework: 8d1dc4e150c6660cd85cdddd243eb87f1313b686
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
   PromisesSwift: e0b2a6433469efb0b83a2b84c62a2abab8e5e5d4
-  Realm: 0cb0b0b24f9303543a1f0dc17de8dec2d5bbf3f0
+  Realm: 9572204903ef28caeb3c03bb30c1147f354ee3e7
   SDWebImage: ed3095af2ff88b436426037444979b917f6c5575
   SkeletonView: 2b14cb767a7da384d17d5d7e1db0d55a6cf9566a
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
@@ -169,6 +169,6 @@ SPEC CHECKSUMS:
   vipaar-tinyspline: d8565207b0c1714bac044a488b4308ca690b52f9
   ZIPFoundation: d170fa8e270b2a32bef9dcdcabff5b8f1a5deced
 
-PODFILE CHECKSUM: d7780638b64c8a2026038caba140e9070c501928
+PODFILE CHECKSUM: f664f717cbde4a8bebd93ecc1196f2abf8da0c5e
 
 COCOAPODS: 1.16.2
