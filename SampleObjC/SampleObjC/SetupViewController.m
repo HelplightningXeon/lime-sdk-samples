@@ -10,7 +10,7 @@
 #import "CallManager.h"
 
 //TODO
-NSString* const kDefaultContactEmail = @"xiaowei.chang+1@helplightning.com";
+NSString* const kDefaultContactEmail = @"[YOUR_USER_NAME]";
 
 @interface SetupViewController ()
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *indicator;
