@@ -64,6 +64,9 @@ function refresh(state) {
                 // or ignore it, it'll be uploaded to the server
                 //  automatically
             },
+            onRecordingUpdated: (recordingEnabled) => {
+                console.log('HelpLightning recording status changed to:', recordingEnabled)
+            },
             // onSelectShareKnowledge is optional. If you don't implement it, the feature will be disabled.
             onSelectShareKnowledge: (fileTypes) => {
                 // You can prompt to select a file or any other source of files matching the fileTypes.
